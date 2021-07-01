@@ -49,23 +49,24 @@
 // console.log(prison.prisoner);
 
 // 65p
-var menu, outer_function, food = 'cake';
+// var menu, outer_function, food = 'cake';
 
-outer_function = function() {
-  var fruit, inner_funtion;
+// outer_function = function() {
+//   var fruit, inner_funtion;
 
-  fruit = 'apple';
+//   fruit = 'apple';
 
-  inner_function = function() {
-    return {
-      food: food,
-      fruit: fruit
-    };
+//   inner_function = function() {
+//     return {
+//       food: food,
+//       fruit: fruit
+//     };
 
-  };
-  return inner_funtion;
-};
+//   };
+//   return inner_funtion;
+// };
 
-menu = outer_function();
+// menu = outer_function();
 
-menu();
+// menu();
+
